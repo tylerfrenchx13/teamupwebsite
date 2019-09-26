@@ -1,0 +1,82 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+#navbar {
+	list-style-type: none;
+	padding: 5px 10%;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0 6px 15px -10px #777;
+	z-index: 1;
+	position: relative;
+}
+
+#navbar li {
+	float: right;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+#navbar li:hover {
+	outline: 3px solid black;
+}
+
+#navbar li a {
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+
+#navbar li #active {
+	background-color: dodgerblue;
+	color: white;
+}
+
+#logo {
+	/*font-family: londrina;*/
+	position: absolute;
+	font-size: 37px;
+	z-index: 2;
+	color: dodgerblue;
+	font-weight: bold;
+}
+
+#hero {
+	height: 600px;
+	background-image: url("heroimage4.jpg");
+	background-size: cover;
+	margin-top: -50px;
+	filter: brightness(50%);
+}
+
+h1 {
+	position: absolute;
+	font-size: 120px;
+	color: white;
+	z-index: 5;
+	margin-left: 10%;
+	margin-top: 120px;
+}
+
+#main {
+	height: 800px;
+	background-color: white;
+}
+
+footer {
+	height: 100px;
+	background-color: lime;
+}
+
+@font-face {
+	font-family: londrina;
+	src: url(londrina.otf);
+}
