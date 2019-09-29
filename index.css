@@ -19,17 +19,17 @@ body {
 #navbar li {
 	float: right;
 	margin-left: 10px;
-	border-radius: 10px;
 }
 
 #navbar li:hover {
-	outline: 3px solid black;
+	border-bottom: 2px solid dodgerblue;
 }
 
 #navbar li a {
 	display: block;
 	text-align: center;
-	padding: 14px 20px;
+	padding: 14px 20px 5px 20px;
+	margin-bottom: 9px;
 	text-decoration: none;
 	font-size: 18px;
 	color: black;
@@ -41,13 +41,19 @@ body {
 }
 
 #logo {
-	/*font-family: londrina;*/
+	position: absolute;
+	width: 220px;
+	z-index: 2;
+}
+
+/*#logo {
+	font-family: londrina;
 	position: absolute;
 	font-size: 37px;
 	z-index: 2;
 	color: dodgerblue;
 	font-weight: bold;
-}
+}*/
 
 #hero {
 	height: 600px;
@@ -80,3 +86,14 @@ footer {
 	font-family: londrina;
 	src: url(londrina.otf);
 }
+
+@keyframes borderExpand {
+	from {
+	  border-bottom: 
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
